@@ -37,4 +37,5 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh release create '${{ github.ref_name }}' publish/BudsTray.exe publish/BudsTray.exe.sha256 `
-            --title 'BudsTray ${{ github.ref_name }}' --generate-notes
+            --title 'BudsTray ${{ github.ref_name }}' `
+            --notes 'Windows 10/11 x64. Download **BudsTray.exe** and run it; see the README for setup. Check the download against BudsTray.exe.sha256.'
