@@ -1,0 +1,12 @@
+bin/
+obj/
+*.user
+.vs/
+.claude/
+publish/
+artifacts/
+TestResults/
+# Output of the Debug-only developer switches (device dumps, icons, screenshots)
+/*.txt
+/*.log
+/*.png
